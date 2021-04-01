@@ -420,8 +420,9 @@ if (detectOS() != 'Iphone' && detectOS() != _0x38d2('0x71', 'jiav')) {
 		'iconsColor': '#ffffff'
 	})
 } else {
-    //videoUrl = url + '/' + id + '/l/' + getSign(id, 'l') + '/playlist.m3u8';
-	videoUrl = url + '/' + id + _0x38d2('0x74', '(#1@') + getSign(id, '1') + _0x38d2('0x75', 'z5!M');
+    videoUrl = url + '/' + id + '/l/' + getSign(id, 'l') + '/playlist.m3u8';
+	var ua = navigator[_0x38d2('0x76', '%6Uu')]['toLocaleLowerCase']();
+	//videoUrl = url + '/' + id + _0x38d2('0x74', '(#1@') + getSign(id, '1') + _0x38d2('0x75', 'z5!M');
 	const dp = new DPlayer({
 		'container': document[_0x38d2('0x77', 'dq3Z')](_0x38d2('0x78', 'nQgt')),
 		'autoplay': !![],

@@ -1,34 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@weigon-mysc 
-weigon-mysc
-/
-wgplayer
-1
-00
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-wgplayer/btjson.css
-@weigon-mysc
-weigon-mysc Update and rename dm to btjson.css
-Latest commit d15b3b4 7 minutes ago
- History
- 1 contributor
-449 lines (448 sloc)  60.7 KB
-  
 @font-face {font-family: 'bt_jsonfont';src: url('../css/bt_json.ttf');}
 button[data-balloon]{overflow:visible}
 [data-balloon]{position:relative;cursor:pointer}
@@ -405,38 +374,8 @@ ul::-webkit-scrollbar-track{-webkit-box-shadow: inset 0 0 5px #ddd;border-radius
 .btjson-controller .btjson-bar-wrap{/* bottom: 45px; */}
 .btjson .btjson-showing{bottom: 60px;}
 .btjson-controller .btjson-icons.btjson-comment-box .btjson-comment-setting-icon{margin-top: -6px;}
-.btjson-bezel .diplayer-loading-icon {
-	display: none;
-	position: absolute;
-	bottom: 55px;
-	right: 45px;
-	margin: -18px 0 0 -18px;
-	pointer-events: none;
-	border: 0;
-	border-color: unset;
-	opacity: .8;
-	border-radius: 0;
-	width: 70px;
-	height: 100px;
-	-moz-animation: spinoffPulse .9s infinite linear;
-	-webkit-animation: unset;
-	background-size: 100%;
-	background-image: url(https://cdn.jsdelivr.net/gh/Fog-Forest/Picture-Bed/IMG/20200519224135.gif);
-	top: 50%;
-	left: 50%;
-	height: 32px;
-	width: 32px;
-	background-image: url(https://cdn.jsdelivr.net/gh/Fog-Forest/Picture-Bed/IMG/20200519224236.png);
-	-webkit-animation: vod_loading 1s steps(30) infinite;
-	width: 54px;
-	height: 20px;
-	margin: -18px 0 0 -18px;
-	background-size: 54px 600px;
-	animation: vod_loading 1s steps(30) infinite;
-	opacity: 1;
-	background-image: url(https://cdn.jsdelivr.net/gh/Fog-Forest/Picture-Bed/IMG/20200524205221.png);
-}
-
+.btjson-bezel .diplayer-loading-icon{display:none;position:absolute;bottom: 55px;right: 45px;margin:-18px 0 0 -18px;pointer-events:none;border: 0;border-color: unset;opacity: .8;border-radius: 0;width: 70px;height: 100px;-moz-animation: spinoffPulse .9s infinite linear;-webkit-animation: unset;background-image: url(https://cdn.jsdelivr.net/gh/Fog-Forest/Picture-Bed/IMG/20200519224135.gif);background-size: 100%;background-image: url(http://tva1.sinaimg.cn/large/007X8olVly1g8u09dpnksg300w00w742.gif);top: 50%;left: 50%;height: 32px;width: 32px;background-image: url(https://s2.ax1x.com/2019/12/19/QqqCVK.png);-webkit-animation: vod_loading 1s steps(30) infinite;width: 54px;height: 20px;margin: -18px 0 0 -18px;background-size: 54px 600px;animation: vod_loading 1s steps(30) infinite;opacity: 1;background-image: url(https://cdn.jsdelivr.net/gh/Fog-Forest/Picture-Bed/IMG/20200524205221.png);}
+.btjson-bezel .diplayer-loading-icon .diplayer-loading-hide,.btjson:-webkit-full-screen .btjson-full-icon{display:none}.btjson .btjson-fulloff-icon{display: none!important;}.btjson:-webkit-full-screen .btjson-fulloff-icon{display:inline!important;}
 #close{bottom: 5%;left: 2%;box-shadow: unset;background: unset;top: unset;color: #666;height: auto;border-radius: 0;text-align: left;font-size: 12px;width: 110px;cursor: pointer;position: absolute;z-index: 99999;display: inline-block;line-height: 16px;}
 #loading-box{width: 100%;height: 100%;position: absolute;z-index: 10000000001;background: #fff;}
 #loading-box 1span{width: 18px;height: 18px;border-radius: 50%;background: gray;color: #fff;position: absolute;top: 5px;right: 5px;text-align: center;}
@@ -508,15 +447,3 @@ to{background-position:0 -600px}
 .danmu-off #link2-success {
 	display: none !important;
 }
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About

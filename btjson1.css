@@ -1,4 +1,4 @@
-﻿@font-face {font-family: 'bt_jsonfont';src: url('../css/bt_json.ttf');}
+﻿@font-face {font-family: 'bt_jsonfont';src: url('https://cdn.jsdelivr.net/gh/btjson/5mrk@0.0.4/css/btjson.ttf');}
 button[data-balloon]{overflow:visible}
 [data-balloon]{position:relative;cursor:pointer}
 [data-balloon]:after{font-family:sans-serif!important;font-weight:400!important;font-style:normal!important;text-shadow:none!important;font-size:12px!important;background:hsla(0,0%,7%,.9);border-radius:4px;color:#fff;content:attr(data-balloon);padding:.5em 1em;white-space:nowrap}
@@ -192,7 +192,7 @@ to{opacity:.25;-webkit-transform:scale(.85);transform:scale(.85)}}.btjson-contro
 .btjson-controller .btjson-bar-wrap{padding:5px 0;cursor:pointer;position:absolute;bottom: 33px;width:calc(100% - 40px);height:3px;}
 .btjson-controller .btjson-bar-wrap .btjson-bar-preview{position:absolute;background:#fff;pointer-events:none;display:none;background-size:auto 100%}
 .btjson-controller .btjson-bar-wrap .btjson-bar-preview-canvas{position:absolute;width:100%;height:100%;z-index:1;pointer-events:none}
-.btjson-bar-time{position:absolute;left: 0;top: -25px;width: 44px;height: 60px;border-radius:4px;/* padding:5px 7px; */background-color:rgba(0,0,0,.62);color: #fff;font-size:9pt;text-align:center;opacity: 1;transition:opacity .1s ease-in-out;word-wrap:normal;word-break:normal;z-index:2;pointer-events:none;background: url(../sign.png) no-repeat center;}.btjson-controller .btjson-bar-wrap .btjson-bar-time.hidden{opacity: 0;}
+.btjson-bar-time{position:absolute;left: 0;top: -25px;width: 44px;height: 60px;border-radius:4px;/* padding:5px 7px; */background-color:rgba(0,0,0,.62);color: #fff;font-size:9pt;text-align:center;opacity: 1;transition:opacity .1s ease-in-out;word-wrap:normal;word-break:normal;z-index:2;pointer-events:none;background: url(https://cdn.jsdelivr.net/gh/btjson/5mrk@0.0.4/img/sign.png) no-repeat center;}.btjson-controller .btjson-bar-wrap .btjson-bar-time.hidden{opacity: 0;}
 .btjson-controller .btjson-bar-wrap .btjson-bar{position:relative;height: 2px;width:100%;background:hsla(0,0%,100%,.2);cursor:pointer;}
 .btjson-controller .btjson-bar-wrap:hover .btjson-bar{height: 4px;margin-top: -1px;}
 .btjson-controller .btjson-bar-wrap .btjson-bar .btjson-loaded{background:hsla(0,0%,100%,.4);/* -webkit-transition:all .5s ease; *//* transition:all .5s ease */}
